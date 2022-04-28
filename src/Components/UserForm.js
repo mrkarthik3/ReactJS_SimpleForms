@@ -18,7 +18,8 @@ const UserForm = (props) => {
       age: age,
       id: Math.ceil(Math.random() * 1000000),
     };
-    // console.log(data);
+    console.log(data);
+    console.log(Number(data.age));
     props.pullData(data);
 
     //reset form fields
