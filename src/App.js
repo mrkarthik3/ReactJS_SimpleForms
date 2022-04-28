@@ -14,6 +14,7 @@ function App() {
 
   let currentInput;
   const pullData = (data) => {
+    // ERROR HANDLING
     if (data.username.trim().length === 0 || Number(data.age) <= 0) {
       setIsError(true);
       let allErrors = {};
@@ -34,9 +35,11 @@ function App() {
       setErrorTypes(allErrors);
       return;
     }
+    // SAVING CURRENT INPUT DATA
     currentInput = data;
     const newDataItems = [data, ...dataItems];
     setDataItems(newDataItems);
+    // RESETTING ERRORS
     setErrorTypes({});
   };
 
