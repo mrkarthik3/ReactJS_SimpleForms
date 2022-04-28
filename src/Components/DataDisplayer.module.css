@@ -1,0 +1,8 @@
+.datadisplayer {
+    margin: 40px auto;
+    min-height: 40vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #8b005d;
+    width: 60%;
+}

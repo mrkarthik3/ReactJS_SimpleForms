@@ -1,0 +1,31 @@
+.modal{
+    width: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.close {
+    text-align: right;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: #8b005d;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+.center {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: #8b005d;
+}
